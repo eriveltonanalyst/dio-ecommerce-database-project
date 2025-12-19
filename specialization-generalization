@@ -1,0 +1,15 @@
+CLIENTE
+- id_cliente (PK)
+- nome
+- email
+- telefone
+
+CLIENTE_PF
+- id_cliente (PK, FK)
+- cpf
+- data_nascimento
+
+CLIENTE_PJ
+- id_cliente (PK, FK)
+- cnpj
+- razao_social
