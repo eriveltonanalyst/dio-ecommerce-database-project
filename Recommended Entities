@@ -1,0 +1,8 @@
+PAGAMENTO
+- id_pagamento (PK)
+- tipo_pagamento (cartão, pix, boleto)
+- detalhes (bandeira, últimos dígitos etc.)
+
+CLIENTE_PAGAMENTO
+- id_cliente (FK)
+- id_pagamento (FK)
